@@ -5,9 +5,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: lavender;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/*Tasks styles */
+.heading {
+  color: purple;
+  text-align:center;
+}
+
+.form-style{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:wrap;
+  gap: 5px;
+}
+
+@media screen and (max-width: 320px) {
+  .button-style {
+    width:100%;
+  }
+}
+
+.task-style{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.tasks{
+  width:100%;
+  padding: 4px;
 }
